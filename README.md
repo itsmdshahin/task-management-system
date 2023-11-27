@@ -137,6 +137,4 @@ task-management-system/
 
 **Author Section**
 
-##author
-
 - [Md Shahinur Rahman](https://github.com/itsmdshahin)
