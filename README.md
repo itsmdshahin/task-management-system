@@ -47,18 +47,23 @@ Before running the project, ensure you have the following installed:
    PORT=5001
 
 Create a .env file in the project root and add your MongoDB connection URL:
+   ```bash
    MONGO_URL=mongodb://localhost:27017/task_management
    PORT=5001
+   ```
+   
 Start the server:
+   ```bash
    npm start
+   ```
 Visit http://localhost:5001 in your browser to access the Task Management System.
 
-API Endpoints
-  POST /tasks: Create a new task.
-  GET /tasks: Fetch all tasks.
-  GET /tasks/:id: Fetch a single task by its ID.
-  PUT /tasks/:id: Update a task by its ID.
-  DELETE /tasks/:id: Delete a task by its ID.
+API Endpoints:
+  -POST /tasks: Create a new task.
+  -GET /tasks: Fetch all tasks.
+  -GET /tasks/:id: Fetch a single task by its ID.
+  -PUT /tasks/:id: Update a task by its ID.
+  -DELETE /tasks/:id: Delete a task by its ID.
 For detailed documentation on API endpoints, refer to API Documentation.
 
 **Author Section**
