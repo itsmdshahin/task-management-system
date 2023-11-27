@@ -43,8 +43,6 @@ Before running the project, ensure you have the following installed:
    git clone https://github.com/yitsmdshahin/task-management-system.git
    cd task-management-system
    npm install
-   MONGO_URL=mongodb://localhost:27017/task_management
-   PORT=5001
 
 Create a .env file in the project root and add your MongoDB connection URL:
    ```bash
@@ -56,16 +54,15 @@ Start the server:
    ```bash
    npm start
    ```
-Visit http://localhost:5001 in your browser to access the Task Management System.
+Visit ```http://localhost:5001``` in your browser to access the Task Management System.
 
-API Endpoints:
-  -POST /tasks: Create a new task.
-  -GET /tasks: Fetch all tasks.
-  -GET /tasks/:id: Fetch a single task by its ID.
-  -PUT /tasks/:id: Update a task by its ID.
-  -DELETE /tasks/:id: Delete a task by its ID.
-For detailed documentation on API endpoints, refer to API Documentation.
+**API Endpoints:**
+  - POST /tasks: Create a new task.
+  - GET /tasks: Fetch all tasks.
+  - GET /tasks/:🆔: Fetch a single task by its ID.
+  - PUT /tasks/:🆔: Update a task by its ID.
+  - DELETE /tasks/:🆔: Delete a task by its ID.
+ 
 
 **Author Section**
-## Author
 - [Md Shahinur Rahman](https://github.com/itsmdshahin)
