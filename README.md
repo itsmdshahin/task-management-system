@@ -1,5 +1,3 @@
-# task-management-system
-Task Management System (Server online)
 # Task Management System
 
 Welcome to the Task Management System! This project is a simple task management system built using Node.js, Express.js, and MongoDB.
